@@ -1,0 +1,100 @@
+/*
+@media screen and (min-width: 100px) {
+  .left, .main, .right {
+    width: 40%; /* The width is 100%, when the viewport is 800px or smaller */
+
+body{
+	font-family: 'Poppins', sans-serif;
+	color: #6cf;
+	background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+.container{
+	height: 400px;
+	width: 1000px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 20px;
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+	
+}
+
+
+.title{
+	padding-top: 20px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 40px ;
+	text-transform: uppercase ;
+	color: #ffffff;
+}
+
+.question{
+	padding: 20px;
+	font-size: 22px;
+	background-color: #08038c;
+	border-radius: 20px;
+	margin: 10px 0 10px 0;
+	color: #f6f6f6;
+}
+
+
+.option{
+	width: 470px;
+	display: inline-block;
+	padding: 10px 0 10px 15px;
+	vertical-align: middle;
+	background-color: rgba(255,255,255,0.5);
+	margin: 10px 0 10px 10px;
+	color: #000000;
+	border-radius: 20px;
+
+}
+
+.option:hover{
+	background: #08038c;
+	color: #f6f6f6;
+}
+
+
+.next-btn{
+	border:none;
+	outline: none;
+	background: rgba(255,255,255,0.5);
+	width: 100px;
+	height: 35px;
+	border-radius: 28px;
+	float: right;
+	cursor: pointer;
+	margin: 10px 10px 20px 10px ;
+}
+
+.next-btn:hover{
+    background: #08038c;
+	color: #f6f6f6;
+}
+
+.result{
+	height: 100px;
+	text-align: center;
+	font-size: 75px;
+	color: #ffffff;
+ 
+	
+    
+	/*width: 1000px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 20px;
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);*/
+}
+
+.option input:checked .option{
+	background: #08038c;
+	color: #000;
+}
